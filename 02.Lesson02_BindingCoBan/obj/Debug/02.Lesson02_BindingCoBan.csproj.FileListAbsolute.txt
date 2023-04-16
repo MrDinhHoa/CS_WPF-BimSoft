@@ -1,0 +1,15 @@
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\bin\Debug\02.Lesson02_BindingCoBan.exe.config
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\bin\Debug\02.Lesson02_BindingCoBan.exe
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\bin\Debug\02.Lesson02_BindingCoBan.pdb
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.csproj.AssemblyReference.cache
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\MainWindow.g.cs
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\App.g.cs
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan_MarkupCompile.cache
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan_MarkupCompile.lref
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\MainWindow.baml
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.g.resources
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\_02.Lesson02_BindingCoBan.Properties.Resources.resources
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.csproj.GenerateResource.cache
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.csproj.CoreCompileInputs.cache
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.exe
+D:\STUDY\Programming\C-Sharp\CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.pdb

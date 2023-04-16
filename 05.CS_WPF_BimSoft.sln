@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33423.256
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Lesson01_ThietKeGiaoDien", "01.Lesson01_ThietKeGiaoDien\01.Lesson01_ThietKeGiaoDien.csproj", "{4EA70C90-A31D-44DA-9368-4EC90C11DD90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Lesson02_BindingCoBan", "02.Lesson02_BindingCoBan\02.Lesson02_BindingCoBan.csproj", "{7E9BEC44-C2AD-4344-954F-E06C575CC2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Lesson03_BindingNangCao", "03.Lesson03_BindingNangCao\03.Lesson03_BindingNangCao.csproj", "{AE83A012-EF75-4AAA-B471-C5D741A971D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4EA70C90-A31D-44DA-9368-4EC90C11DD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA70C90-A31D-44DA-9368-4EC90C11DD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA70C90-A31D-44DA-9368-4EC90C11DD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9BEC44-C2AD-4344-954F-E06C575CC2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9BEC44-C2AD-4344-954F-E06C575CC2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9BEC44-C2AD-4344-954F-E06C575CC2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9BEC44-C2AD-4344-954F-E06C575CC2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
