@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Lesson02_BindingCoBan", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Lesson03_BindingNangCao", "03.Lesson03_BindingNangCao\03.Lesson03_BindingNangCao.csproj", "{AE83A012-EF75-4AAA-B471-C5D741A971D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Lesson04_UserManager", "04.Lesson04_UserManager\04.Lesson04_UserManager.csproj", "{2E74CA63-4765-4A29-9581-F8684FB9D18C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE83A012-EF75-4AAA-B471-C5D741A971D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E74CA63-4765-4A29-9581-F8684FB9D18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E74CA63-4765-4A29-9581-F8684FB9D18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E74CA63-4765-4A29-9581-F8684FB9D18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E74CA63-4765-4A29-9581-F8684FB9D18C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
