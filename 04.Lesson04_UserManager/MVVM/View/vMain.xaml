@@ -14,7 +14,13 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+
         <Ribbon>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu Visibility="Visible">
+                    <TextBlock Text="Học WPF"/>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
             <RibbonTab Header="Trang chủ">
                 <RibbonGroup Header="Người dùng">
                     <RibbonButton 

@@ -49,3 +49,28 @@ D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\0
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.CopyComplete
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.exe
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.pdb
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\04.Lesson04_UserManager.exe.config
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\04.Lesson04_UserManager.exe
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\04.Lesson04_UserManager.pdb
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\MaterialDesignColors.dll
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\MaterialDesignColors.pdb
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.AssemblyReference.cache
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\MVVM\View\vMain.g.cs
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\App.g.cs
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager_MarkupCompile.cache
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager_MarkupCompile.lref
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\App.baml
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\MVVM\View\vMain.baml
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.g.resources
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\_04.Lesson04_UserManager.Properties.Resources.resources
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.GenerateResource.cache
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.CoreCompileInputs.cache
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.CopyComplete
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.exe
+D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.pdb
