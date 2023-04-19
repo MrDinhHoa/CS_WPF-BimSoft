@@ -3,8 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:_04.Lesson04_UserManager.MVVM.View"
-        d:DataContext="{d:DesignInstance local:vMain}"
+        xmlns:vm="clr-namespace:_04.Lesson04_UserManager.MVVM.ViewModel"
+        d:DataContext="{d:DesignInstance Type=vm:vmMain}"
+        DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
         mc:Ignorable="d"
         WindowStyle="ThreeDBorderWindow"
         Title="vMain" Height="450" Width="800">
@@ -14,23 +15,28 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Ribbon>
-            <RibbonApplicationMenu Visibility="Collapsed">
-                <TextBlock Text="Khóa học WPF"></TextBlock>
-            </RibbonApplicationMenu>
             <RibbonTab Header="Trang chủ">
                 <RibbonGroup Header="Người dùng">
-                    <RibbonButton Label="Thêm"
-                                  Command="{Binding }">
-
+                    <RibbonButton 
+                        Label="Thêm" 
+                        LargeImageSource="/04.Lesson04_UserManager;component/Helper/Image/AddUser.png"
+                        Command = "{Binding CmdAddUser}">
                     </RibbonButton>
-                    <RibbonButton Label="Sửa">
-
+                    <RibbonButton 
+                        Label="Sửa" 
+                        LargeImageSource="/04.Lesson04_UserManager;component/Helper/Image/EditUser.png"
+                        Command = "{Binding CmdEditUser}">
                     </RibbonButton>
-                    <RibbonButton Label="Xóa">
-
+                    <RibbonButton 
+                        Label="Xóa" 
+                        LargeImageSource="/04.Lesson04_UserManager;component/Helper/Image/RemoveUser.png"
+                        Command = "{Binding CmdRemoveUser}">
                     </RibbonButton>
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>
+        <DataGrid Grid.Row="1">
+            
+        </DataGrid>
     </Grid>
 </Window>

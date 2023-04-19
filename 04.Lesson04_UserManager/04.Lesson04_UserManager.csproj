@@ -38,7 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BIMSoftLib">
-      <HintPath>C:\Users\hoadh\Downloads\BIMSoftLib.dll</HintPath>
+      <HintPath>..\..\00.CS_Library\BIMSoftLib.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=2.1.2.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.2.1.2\lib\net462\MaterialDesignColors.dll</HintPath>
@@ -112,6 +112,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Helper\Image\AddUser.png" />
+    <Resource Include="Helper\Image\EditUser.png" />
+    <Resource Include="Helper\Image\RemoveUser.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.8.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.8.0\build\MaterialDesignThemes.targets')" />
