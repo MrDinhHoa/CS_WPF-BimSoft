@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace _04.Lesson04_UserManager.MVVM.ViewModel
 {
-    class vmMain: PropertyChangedBase
+    class vmMain : PropertyChangedBase
     {
         public static vmMain DcMain = new vmMain();
 
