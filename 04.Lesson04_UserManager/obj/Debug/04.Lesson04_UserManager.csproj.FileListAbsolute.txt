@@ -74,3 +74,4 @@ D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_User
 D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.CopyComplete
 D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.exe
 D:\WORKING\DHH\CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\04.Lesson04_UserManager\bin\Debug\BIMSoftLib.dll

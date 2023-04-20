@@ -6,12 +6,28 @@ using System.Text;
 using System.Threading.Tasks;
 using BIMSoftLib.MVVM;
 using System.Windows.Input;
+using _04.Lesson04_UserManager.Object;
 
-namespace _04.Lesson04_UserManager.MVVM.ViewModel
+namespace _04_Lesson04_UserManager.MVVM.ViewModel
 {
     class vmMain : PropertyChangedBase
     {
         public static vmMain DcMain = new vmMain();
+
+        private ObservableRangeCollection<UserInfor> _gcSource_vm = new ObservableRangeCollection<UserInfor>();
+
+        public ObservableRangeCollection<UserInfor> GcSource
+        {
+            get
+            {
+                return _gcSource_vm;
+            }
+            set
+            {
+                _gcSource_vm = value;
+                OnPropertyChanged("GcSource");
+            }
+        }
 
         private ActionCommand _cmdAddUser_vm;
 

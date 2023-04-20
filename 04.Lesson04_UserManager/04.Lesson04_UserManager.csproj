@@ -84,6 +84,7 @@
     <Compile Include="MVVM\View\vMain.xaml.cs">
       <DependentUpon>vMain.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Object\UserInfor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

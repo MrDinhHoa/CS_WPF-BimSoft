@@ -3,18 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:_04.Lesson04_UserManager.MVVM.ViewModel"
-        d:DataContext="{d:DesignInstance Type=vm:vmMain}"
-        DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
+        xmlns:local ="clr-namespace:_04.Lesson04_UserManager.MVVM.View"
+        xmlns:vm="clr-namespace:_04_Lesson04_UserManager.MVVM.ViewModel"
         mc:Ignorable="d"
-        WindowStyle="ThreeDBorderWindow"
+        xmlns:viewModel="clr-namespace:_04.Lesson04_UserManager.MVVM.View"
+        d:DataContext ="{d:DesignInstance Type=vm:vmMain}"
+        DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
+        
         Title="vMain" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
         <Ribbon>
             <Ribbon.ApplicationMenu>
                 <RibbonApplicationMenu Visibility="Visible">
@@ -41,8 +42,7 @@
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>
-        <DataGrid Grid.Row="1">
-            
-        </DataGrid>
+        <DataGrid Grid.Row="1"
+                  ItemsSource="{Binding GcSource}"/>
     </Grid>
 </Window>
