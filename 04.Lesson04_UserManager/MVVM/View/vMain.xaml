@@ -6,7 +6,7 @@
         xmlns:local ="clr-namespace:_04.Lesson04_UserManager.MVVM.View"
         xmlns:vm="clr-namespace:_04_Lesson04_UserManager.MVVM.ViewModel"
         mc:Ignorable="d"
-        xmlns:viewModel="clr-namespace:_04.Lesson04_UserManager.MVVM.View"
+        
         d:DataContext ="{d:DesignInstance Type=vm:vmMain}"
         DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
         

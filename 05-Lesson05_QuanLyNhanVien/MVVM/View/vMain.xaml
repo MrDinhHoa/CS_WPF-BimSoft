@@ -1,0 +1,30 @@
+﻿<Window x:Class="_05_Lesson05_QuanLyNhanVien.MVVM.View.vMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:local="clr-namespace:_05_Lesson05_QuanLyNhanVien.MVVM.View"
+        xmlns:vm="clr-namespace:_05_Lesson05_QuanLyNhanVien.MVVM.ViewModel" 
+        d:DataContext ="{d:DesignInstance Type=vm:vmMain}"
+        DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
+        mc:Ignorable="d"
+        Title="vMain" Height="450" Width="800">
+    <Grid>
+        <Ribbon>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu Visibility="Collapsed">
+                    <TextBlock Text="Học WPF"/>
+                </RibbonApplicationMenu> 
+            </Ribbon.ApplicationMenu>
+            <RibbonTab Header="Trang chủ">
+                <RibbonGroup Header="Người dùng">
+                    <RibbonButton 
+                        Label="Đơn vị"
+                        Command = "{Binding CmdDonVi}">
+                    </RibbonButton>
+                </RibbonGroup>
+            </RibbonTab>
+        </Ribbon>
+    </Grid>
+</Window>
