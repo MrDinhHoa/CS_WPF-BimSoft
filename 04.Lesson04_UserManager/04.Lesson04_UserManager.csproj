@@ -78,11 +78,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\vUserInfor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MVVM\ViewModel\vmMain.cs" />
+    <Compile Include="MVVM\ViewModel\vmUserInfor.cs" />
     <Compile Include="MVVM\View\vMain.xaml.cs">
       <DependentUpon>vMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\vUserInfor.xaml.cs">
+      <DependentUpon>vUserInfor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Object\UserInfor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

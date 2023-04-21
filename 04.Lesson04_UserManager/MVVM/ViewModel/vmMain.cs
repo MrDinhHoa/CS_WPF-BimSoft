@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using BIMSoftLib.MVVM;
 using System.Windows.Input;
 using _04.Lesson04_UserManager.Object;
+using _04.Lesson04_UserManager.MVVM.View;
 
 namespace _04_Lesson04_UserManager.MVVM.ViewModel
 {
@@ -46,6 +47,8 @@ namespace _04_Lesson04_UserManager.MVVM.ViewModel
 
         private void PerformCmdAddUser()
         {
+            var win = new vUserInfor();
+            win.Show();
         }
 
         private ActionCommand _cmdEditUser_vm;
