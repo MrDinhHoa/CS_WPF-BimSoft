@@ -1,0 +1,48 @@
+﻿<Window xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"  x:Class="_05_Lesson05_QuanLyNhanVien.MVVM.View.vDonVi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_05_Lesson05_QuanLyNhanVien.MVVM.View"
+        mc:Ignorable="d"
+        Title="vDonVi" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Công ty" Style="{x:Null}">
+            <!--SelectionMode="Row"-->
+            <dxg:GridControl Grid.Row="1"
+                             ItemsSource="{Binding CorpSource}"
+                             SelectedItem="{Binding CorpSelect,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                             AutoGenerateColumns="None"
+                             EnableSmartColumnsGeneration="True"
+                             SelectionMode="Row"
+                             x:Name="gcCorp">
+                <dxg:GridControl.View>
+                    <dxg:TableView
+                        x:Name="gvCorp"
+                        AutoWidth="True"
+                        NewItemRowPosition="Top"
+                        ShowSelectionRectangle="True"
+                        AllowConditionalFormattingMenu="True"
+                        ShowGroupPanel="True"
+                        SearchPanelHorizontalAlignment="Stretch"
+                        SearchPanelPosition="OverGroupPanel"
+                        SearchPanelParseMode="Exact"
+                        ShowSearchPanelMode="Always">
+                        
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+        </GroupBox>
+        <GridSplitter Grid.Column="1" HorizontalAlignment="Stretch"/>
+        <GroupBox 
+            Grid.Column="2"
+            Header="Phòng ban" Style="{x:Null}">
+
+        </GroupBox>
+    </Grid>
+</Window>

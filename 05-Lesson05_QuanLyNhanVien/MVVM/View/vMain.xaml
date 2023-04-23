@@ -4,11 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+        mc:Ignorable="d"
         xmlns:local="clr-namespace:_05_Lesson05_QuanLyNhanVien.MVVM.View"
         xmlns:vm="clr-namespace:_05_Lesson05_QuanLyNhanVien.MVVM.ViewModel" 
-        d:DataContext ="{d:DesignInstance Type=vm:vmMain}"
+        d:DataContext="{d:DesignInstance Type =vm:vmMain}"
         DataContext="{Binding Source={x:Static vm:vmMain.DcMain}}"
-        mc:Ignorable="d"
         Title="vMain" Height="450" Width="800">
     <Grid>
         <Ribbon>
@@ -18,11 +18,13 @@
                 </RibbonApplicationMenu> 
             </Ribbon.ApplicationMenu>
             <RibbonTab Header="Trang chủ">
-                <RibbonGroup Header="Người dùng">
-                    <RibbonButton 
+                <RibbonGroup Header="Thông tin chung">
+                    <RibbonButton
                         Label="Đơn vị"
-                        Command = "{Binding CmdDonVi}">
-                    </RibbonButton>
+                        LargeImageSource="../../Image/building.png"
+                        SmallImageSource="../../Image/building.png"
+                        Command="{Binding CmdDonVi}"/>
+
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>

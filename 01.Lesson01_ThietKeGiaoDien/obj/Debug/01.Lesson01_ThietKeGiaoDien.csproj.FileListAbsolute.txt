@@ -59,7 +59,6 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\bin\D
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\bin\Debug\Microsoft.Xaml.Behaviors.xml
-D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.csproj.AssemblyReference.cache
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\MVVM\View\VMain.g.cs
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\App.g.cs
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien_MarkupCompile.cache
