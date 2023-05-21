@@ -1,0 +1,4 @@
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson10_ExcelWorkbook\obj\Debug\Lesson10_ExcelWorkbook.csproj.AssemblyReference.cache
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson10_ExcelWorkbook\obj\Debug\MVVM\View\vMain.g.cs
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson10_ExcelWorkbook\obj\Debug\Lesson10_ExcelWorkbook_MarkupCompile.cache
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson10_ExcelWorkbook\obj\Debug\Lesson10_ExcelWorkbook_MarkupCompile.lref

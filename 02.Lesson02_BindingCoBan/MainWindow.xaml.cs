@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _02.Lesson02_BindingCoBan
+namespace Lesson02_BindingCoBan
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -46,3 +46,4 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\03.Lesson03_BindingNangCao\obj\De
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\03.Lesson03_BindingNangCao\obj\Debug\03.Lesson03_BindingNangCao.csproj.CopyComplete
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\03.Lesson03_BindingNangCao\obj\Debug\03.Lesson03_BindingNangCao.exe
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\03.Lesson03_BindingNangCao\obj\Debug\03.Lesson03_BindingNangCao.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\03.Lesson03_BindingNangCao\obj\Debug\03.Lesson03_BindingNangCao.csproj.SuggestedBindingRedirects.cache

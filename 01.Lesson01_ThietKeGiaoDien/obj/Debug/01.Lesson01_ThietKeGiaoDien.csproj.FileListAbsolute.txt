@@ -72,3 +72,5 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\D
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.csproj.CopyComplete
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.exe
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.csproj.AssemblyReference.cache
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\01.Lesson01_ThietKeGiaoDien\obj\Debug\01.Lesson01_ThietKeGiaoDien.csproj.SuggestedBindingRedirects.cache

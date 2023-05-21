@@ -1,0 +1,6 @@
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\bin\Debug\Lesson08_AcadCOM.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\bin\Debug\Lesson08_AcadCOM.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\obj\Debug\Lesson08_AcadCOM.csproj.AssemblyReference.cache
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\obj\Debug\Lesson08_AcadCOM.csproj.CoreCompileInputs.cache
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\obj\Debug\Lesson08_AcadCOM.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson08_AcadCOM\obj\Debug\Lesson08_AcadCOM.pdb

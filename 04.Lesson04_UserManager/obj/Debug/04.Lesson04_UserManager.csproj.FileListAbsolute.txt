@@ -79,3 +79,4 @@ D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\M
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\04.Lesson04_UserManager\obj\Debug\MVVM\View\vUserInfor.baml
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\MVVM\View\vUserInfor.g.cs
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\MVVM\View\vUserInfor.baml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\04.Lesson04_UserManager\obj\Debug\04.Lesson04_UserManager.csproj.SuggestedBindingRedirects.cache

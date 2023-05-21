@@ -1,7 +1,7 @@
-﻿<Application x:Class="_02.Lesson02_BindingCoBan.App"
+﻿<Application x:Class="Lesson02_BindingCoBan.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:_02.Lesson02_BindingCoBan"
+             xmlns:local="clr-namespace:Lesson02_BindingCoBan"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

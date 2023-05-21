@@ -28,3 +28,4 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debu
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.csproj.CoreCompileInputs.cache
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.exe
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\02.Lesson02_BindingCoBan\obj\Debug\02.Lesson02_BindingCoBan.csproj.SuggestedBindingRedirects.cache
