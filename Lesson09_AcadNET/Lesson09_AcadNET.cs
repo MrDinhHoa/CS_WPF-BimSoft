@@ -27,13 +27,16 @@ namespace Lesson09_AcadNET
             pko.Keywords.Add("No");
             pko.AllowNone = false;
 
-
-
             //Get the user input
             PromptResult result = editor.GetKeywords(pko);
             if(result.Status == PromptStatus.OK)
-            {editor.WriteMessage($"Nhập({ result.StringResult})"); }
+            {
+                PromptDoubleOptions numberOptions = new PromptDoubleOptions("Enter a number: ");
+                PromptDoubleResult numberResult = editor.GetDouble(numberOptions);
+            }
             else { editor.WriteMessage("Không nhập gì"); }
+
+            
         }
 
 
