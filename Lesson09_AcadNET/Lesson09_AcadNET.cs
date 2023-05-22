@@ -22,10 +22,12 @@ namespace Lesson09_AcadNET
             Editor editor = adoc.Editor;
 
             //Create the Prompt;
-            PromptKeywordOptions pko = new PromptKeywordOptions("Chọn command");
-            pko.Keywords.Add("Command1");
-            pko.Keywords.Add("comMand2");
+            PromptKeywordOptions pko = new PromptKeywordOptions("Cấu kiện mới:");
+            pko.Keywords.Add("Yes");
+            pko.Keywords.Add("No");
             pko.AllowNone = false;
+
+
 
             //Get the user input
             PromptResult result = editor.GetKeywords(pko);

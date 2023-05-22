@@ -4,3 +4,9 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\obj\Debug\Lesson
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.csproj.CoreCompileInputs.cache
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.dll
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.pdb
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\Lesson09_AcadNET.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\Lesson09_AcadNET.pdb
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.csproj.AssemblyReference.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.csproj.CoreCompileInputs.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.pdb
