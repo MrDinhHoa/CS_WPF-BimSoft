@@ -17,26 +17,21 @@ namespace Lesson09_AcadNET
 
         public void TKThepDam()
         {
-            MessageBox.Show("Đã bật được CAD","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+           
             var adoc = Application.DocumentManager.MdiActiveDocument;
             Editor editor = adoc.Editor;
 
             //Create the Prompt;
-            PromptKeywordOptions pko = new PromptKeywordOptions("Cấu kiện mới:");
-            pko.Keywords.Add("Yes");
-            pko.Keywords.Add("No");
-            pko.AllowNone = false;
+            PromptDoubleOptions Dia = new PromptDoubleOptions("Đường kính: ");
+            PromptDoubleResult DiaResult = editor.GetDouble(Dia);
 
-            //Get the user input
-            PromptResult result = editor.GetKeywords(pko);
-            if(result.Status == PromptStatus.OK)
-            {
-                PromptDoubleOptions numberOptions = new PromptDoubleOptions("Enter a number: ");
-                PromptDoubleResult numberResult = editor.GetDouble(numberOptions);
-            }
-            else { editor.WriteMessage("Không nhập gì"); }
+            PromptDoubleOptions Num = new PromptDoubleOptions("Số lượng: ");
+            PromptDoubleResult NumResult = editor.GetDouble(Num);
 
-            
+            PromptDoubleOptions NumEle = new PromptDoubleOptions("Số cấu kiện: ");
+            PromptDoubleResult NumEleResult = editor.GetDouble(NumEle);
+
+
         }
 
 

@@ -31,3 +31,21 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\bin\Debug\en-US\
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcMr.resources.dll
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcWindows.resources.dll
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.csproj.CopyComplete
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AdUiPalettes.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcDx.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcDxPublishUi.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AdWindows.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcMr.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcWindows.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AdUIMgd.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcTcMgd.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcCui.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\AcMNUParser.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\acdbmgd.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcDx.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcDxPublishUi.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AdWindows.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcMr.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\bin\Debug\en-US\AcWindows.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson09_AcadNET\obj\Debug\Lesson09_AcadNET.csproj.CopyComplete
