@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson11_EtabsNET", "Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_EtabsCOM", "Lesson12_EtabsCOM\Lesson12_EtabsCOM.csproj", "{97993A17-C0EE-4736-8561-0FF803148695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_Revit_P1", "Lesson13_Revit_P1\Lesson13_Revit_P1.csproj", "{68150807-FC87-4086-B90B-F2D004C6F09F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{97993A17-C0EE-4736-8561-0FF803148695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97993A17-C0EE-4736-8561-0FF803148695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97993A17-C0EE-4736-8561-0FF803148695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68150807-FC87-4086-B90B-F2D004C6F09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68150807-FC87-4086-B90B-F2D004C6F09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68150807-FC87-4086-B90B-F2D004C6F09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68150807-FC87-4086-B90B-F2D004C6F09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
