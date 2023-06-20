@@ -49,3 +49,46 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesso
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.dll
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.pdb
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\vMain\vMain.g.cs
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.csproj.AssemblyReference.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\vMain\vMain.g.cs
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.lref
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.pdb
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\Lesson13_Revit_P1.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\Lesson13_Revit_P1.pdb
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Data.v21.2.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Mvvm.v21.2.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Xpf.Core.v21.2.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Xpf.Grid.v21.2.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Xpf.Grid.v21.2.Core.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\de\DevExpress.Xpf.Core.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\es\DevExpress.Xpf.Core.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ja\DevExpress.Xpf.Core.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru\DevExpress.Xpf.Core.v21.2.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\de\DevExpress.Xpf.Grid.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\es\DevExpress.Xpf.Grid.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ja\DevExpress.Xpf.Grid.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru\DevExpress.Xpf.Grid.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\vMain\vMain.baml
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.g.resources
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.csproj.CoreCompileInputs.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.csproj.CopyComplete

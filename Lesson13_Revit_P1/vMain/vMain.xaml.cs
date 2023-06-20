@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Lesson13_Revit_P1.vMain
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for vMain.xaml
     /// </summary>
     public partial class vMain : Window
     {
