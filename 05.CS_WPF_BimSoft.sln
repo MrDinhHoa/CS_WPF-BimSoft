@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33627.172
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01_ThietKeGiaoDien", "01.Lesson01_ThietKeGiaoDien\Lesson01_ThietKeGiaoDien.csproj", "{4EA70C90-A31D-44DA-9368-4EC90C11DD90}"
 EndProject
@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson11_EtabsNET", "Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12_EtabsCOM", "Lesson12_EtabsCOM\Lesson12_EtabsCOM.csproj", "{97993A17-C0EE-4736-8561-0FF803148695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_Revit_P1", "Lesson13_Revit_P1\Lesson13_Revit_P1.csproj", "{68150807-FC87-4086-B90B-F2D004C6F09F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_RevitP1", "Lesson13_Revit_P1\Lesson13_RevitP1.csproj", "{68150807-FC87-4086-B90B-F2D004C6F09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_RevitP1A", "Lesson13_RevitP1A\Lesson13_RevitP1A.csproj", "{11E62463-7E73-4CF5-939B-A0FE17EB77A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{68150807-FC87-4086-B90B-F2D004C6F09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68150807-FC87-4086-B90B-F2D004C6F09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68150807-FC87-4086-B90B-F2D004C6F09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
