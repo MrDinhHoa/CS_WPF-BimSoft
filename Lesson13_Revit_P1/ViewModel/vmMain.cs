@@ -1,5 +1,4 @@
 ﻿using Autodesk.Revit.UI;
-using DevExpress.Data.XtraReports.Native;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +8,9 @@ using System.Threading.Tasks;
 using BIMSoftLib.MVVM;
 using Lesson13_Revit_P1.Object;
 using Microsoft.Xaml.Behaviors.Core;
+using System.Windows.Input;
+using Lesson13_Revit_P1.Command;
+using static Lesson13_Revit_P1.Command.DoiTenSheet;
 
 namespace Lesson13_Revit_P1.ViewModel
 {

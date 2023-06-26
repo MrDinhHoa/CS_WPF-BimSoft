@@ -41,6 +41,9 @@
     <Reference Include="DevExpress.Xpf.Core.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Grid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Grid.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="RevitAPI">
@@ -66,18 +69,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Command\DoiTenSheet.cs" />
+    <Compile Include="LoadSheet.cs" />
+    <Compile Include="Model\mMain.cs" />
     <Compile Include="Object\RevitSheetInfo.cs" />
+    <Compile Include="Helper\PNGtoImageSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\vmMain.cs" />
-    <Compile Include="vMain\vMain.xaml.cs">
+    <Compile Include="View\vMain.xaml.cs">
       <DependentUpon>vMain.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="vMain\vMain.xaml">
+    <Page Include="View\vMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Lesson13_Revit_P1.addin" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Photo\Icon\Crane_16.png" />
+    <Content Include="Resources\Photo\Icon\Crane_32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "C:\ProgramData\Autodesk\Revit\Addins\2020\K003" mkdir  "C:\ProgramData\Autodesk\Revit\Addins\2020\K003"
+if exist "C:\ProgramData\Autodesk\Revit\Addins\2020\K003" copy "$(ProjectDir)*.addin" "C:\ProgramData\Autodesk\Revit\Addins\2020"
+if exist "C:\ProgramData\Autodesk\Revit\Addins\2020\K003" copy "$(ProjectDir)$(OutputPath)*.dll" "C:\ProgramData\Autodesk\Revit\Addins\2020\K003"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

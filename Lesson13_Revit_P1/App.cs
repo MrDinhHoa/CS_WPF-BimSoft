@@ -6,6 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.UI;
+using Lesson13_Revit_P1.Command;
+using static Lesson13_Revit_P1.ViewModel.vmMain;
+using static Lesson13_Revit_P1.Command.DoiTenSheet;
+using Lesson13_Revit_P1.Helper;
+
 
 namespace Lesson13_Revit_P1
 {
