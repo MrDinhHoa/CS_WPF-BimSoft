@@ -14,7 +14,7 @@ using Lesson13_Revit_P1.View;
 namespace Lesson13_Revit_P1
 {
     [Transaction(TransactionMode.Manual)]
-    class LoadSheet
+    public class LoadSheet: IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -50,7 +50,7 @@ namespace Lesson13_Revit_P1
             DcMain.gcSource.AddRange(sList);
 
 
-            var win = new vMain();
+            var win = new vMain();  
             win.Show();
 
             return Result.Succeeded;

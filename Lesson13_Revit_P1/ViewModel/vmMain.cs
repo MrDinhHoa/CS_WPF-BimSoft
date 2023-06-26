@@ -14,59 +14,50 @@ using static Lesson13_Revit_P1.Command.DoiTenSheet;
 
 namespace Lesson13_Revit_P1.ViewModel
 {
+    class vmMain : PropertyChangedBase
+    {
+        public static vmMain DcMain = new vmMain();
 
-        class vmMain : PropertyChangedBase
+        public static UIControlledApplication RevitCtrlApp;
+        public static UIApplication RevitApp;
+        public static string Apploc = Assembly.GetExecutingAssembly().Location;
+        private ObservableRangeCollection<RevitSheetInfo> _gcSource = new ObservableRangeCollection<RevitSheetInfo>();
+        public ObservableRangeCollection<RevitSheetInfo> gcSource
         {
-            public static vmMain DcMain = new vmMain();
-
-            public static UIControlledApplication RevitCtrlApp;
-            public static UIApplication RevitApp;
-            public static string Apploc = Assembly.GetExecutingAssembly().Location;
-
-
-            private ObservableRangeCollection<RevitSheetInfo> _gcSource = new ObservableRangeCollection<RevitSheetInfo>();
-            public ObservableRangeCollection<RevitSheetInfo> gcSource
+            get => _gcSource;
+            set
             {
-                get
-                {
-                    return _gcSource;
-                }
-                set
-                {
-                    _gcSource = value;
-                    OnPropertyChanged("gcSource");
-                }
-            }
-
-
-
-            private ActionCommand doiTenCmd;
-
-            public ICommand DoiTenCmd
-            {
-                get
-                {
-                    if (doiTenCmd == null)
-                    {
-                        doiTenCmd = new ActionCommand(PerformDoiTenCmd);
-                    }
-
-                    return doiTenCmd;
-                }
-            }
-
-            private async void PerformDoiTenCmd()
-            {
-
-                try
-                {
-                    DoiTenSheet.sList = DcMain.gcSource.ToList();
-                    DoiTenSheetEvent.Raise();
-                }
-                catch (Exception)
-                {
-                }
-
+                _gcSource = value; 
+                OnPropertyChanged("gcSource");
             }
         }
+        private ActionCommand _doiTenCmd;
+
+        
+
+        private async void PerformDoiTenCmd()
+        {
+
+            try
+            { 
+                DoiTenSheet.sList = DcMain.gcSource.ToList(); 
+                DoiTenSheetEvent.Raise();
+            }
+            catch (Exception)
+            {
+            }
+
+        }
+        public ICommand DoiTenCmd
+        {
+            get
+            {
+                if (_doiTenCmd == null)
+                {
+                    _doiTenCmd = new ActionCommand(PerformDoiTenCmd);
+                }
+                return _doiTenCmd;
+            }
+        }
+    }
 }

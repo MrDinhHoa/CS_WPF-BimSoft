@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>LoadSheets</Name>
+		<Assembly>K003\Lesson13_Revit_P1.dll</Assembly>
+		<FullClassName>Lesson13_Revit_P1.LoadSheet</FullClassName>
+		<ClientId>1c412148-59d3-43c9-bbba-5a3fec04c8c3</ClientId>
+		<VendorId>BIMSoft Việt Nam</VendorId>
+		<VendorDescription>BIMSoft Việt Nam - Phát triển ứng dụng xây dựng</VendorDescription>
+	</AddIn>
+
+
+</RevitAddIns>

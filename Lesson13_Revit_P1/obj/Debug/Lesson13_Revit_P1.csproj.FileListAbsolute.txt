@@ -48,7 +48,6 @@ D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesso
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.csproj.CopyComplete
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.dll
 D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.pdb
-D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\obj\Debug\vMain\vMain.g.cs
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.csproj.AssemblyReference.cache
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.cache
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.lref
@@ -167,3 +166,79 @@ D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\ru-RU\A
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\zh-CN\AdWindows.resources.dll
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\bin\Debug\zh-TW\AdWindows.resources.dll
 D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\View\vMain.baml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Lesson13_Revit_P1.addin
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\BIMSoftLib.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAPIUI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\AdpSDKCSharpWrapper.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAPIFoundation.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\PersistenceDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\UtilityAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\APIDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\GraphicsAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ElementGroupDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\EssentialsDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\GeomUtilAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\FamilyDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\DetailDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\CurtainGridFamilyDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ArrayElemsDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\EnergyAnalysisDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\BuildingSystemsDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\HostObjDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RoomAreaPlanDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\SiteDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\SculptingDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\StructuralDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\InterfaceAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\InterfaceUtilAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RebarDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\StructuralAnalysisDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\MassingDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\AssemblyDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\DPartDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\NumberingDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\PointCloudAccessAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\StairRampDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\AnalysisAppsDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\MaterialDBAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\DBManagedServices.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\AdWindows.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAddInUtility.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\APIInterop.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\UIFramework.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\AddInManager.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitUIAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\BuildingSystemsUIAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\DesktopMFCAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\APIUIAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitMFCAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\EssentialsUIAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\DetailUIAPI.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\UIFrameworkServices.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ManagedMC3.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Autodesk.UI.Themes.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Autodesk.UI.Windows.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAPI.xml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAPIUI.xml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\RevitAddInUtility.xml
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\cs-CZ\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\de-DE\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\en-GB\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\en-US\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\es-ES\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\fr-FR\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\it-IT\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ja-JP\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ko-KR\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\pl-PL\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\pt-BR\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\ru-RU\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\zh-CN\AdWindows.resources.dll
+D:\STUDY\Programming\C-Sharp\05.CS_WPF-BimSoft\Lesson13_Revit_P1\bin\Debug\zh-TW\AdWindows.resources.dll

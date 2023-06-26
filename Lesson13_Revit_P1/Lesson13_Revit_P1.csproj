@@ -87,7 +87,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Lesson13_Revit_P1.addin" />
+    <AdditionalFiles Include="Lesson13_Revit_P1.addin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

@@ -10,45 +10,45 @@ namespace Lesson13_Revit_P1.Object
 {
     public class RevitSheetInfo : PropertyChangedBase
     {
-        private ElementId _Id = null;
+        private ElementId _id = null;
         public ElementId Id
         {
             get
             {
-                return _Id;
+                return _id;
             }
             set
             {
-                _Id = value;
+                _id = value;
                 OnPropertyChanged("Id");
             }
         }
 
-        private string _SheetName = null;
+        private string _sheetName = null;
         public string SheetName
         {
             get
             {
-                return _SheetName;
+                return _sheetName;
             }
             set
             {
-                _SheetName = value;
+                _sheetName = value;
                 OnPropertyChanged("SheetName");
             }
         }
 
 
-        private string _NewSheetName = null;
+        private string _newSheetName = null;
         public string NewSheetName
         {
             get
             {
-                return _NewSheetName;
+                return _newSheetName;
             }
             set
             {
-                _NewSheetName = value;
+                _newSheetName = value;
                 OnPropertyChanged("NewSheetName");
             }
         }

@@ -8,7 +8,7 @@ using Lesson13_Revit_P1.Object;
 
 namespace Lesson13_Revit_P1.Model
 {
-    class mMain
+    class MMain
     {
         public static void ChangeSheetName(Document doc, List<RevitSheetInfo> sList)
         {

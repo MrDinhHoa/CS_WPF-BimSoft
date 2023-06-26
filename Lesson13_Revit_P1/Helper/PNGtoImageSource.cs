@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 
 namespace Lesson13_Revit_P1.Helper
 {
-    class PNGtoImageSource
+    class PnGtoImageSource
     {
         public static ImageSource Convert(string embeddedPath)
         {
