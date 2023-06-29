@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_RevitP1", "Lesson1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13_RevitP1A", "Lesson13_RevitP1A\Lesson13_RevitP1A.csproj", "{11E62463-7E73-4CF5-939B-A0FE17EB77A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson09A_AcadNet_ViewPort", "Lesson09A_AcadNet_ViewPort\Lesson09A_AcadNet_ViewPort.csproj", "{96CA844B-A679-4634-B7C5-D727FF855B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E62463-7E73-4CF5-939B-A0FE17EB77A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CA844B-A679-4634-B7C5-D727FF855B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CA844B-A679-4634-B7C5-D727FF855B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CA844B-A679-4634-B7C5-D727FF855B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CA844B-A679-4634-B7C5-D727FF855B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
