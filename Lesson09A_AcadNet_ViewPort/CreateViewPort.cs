@@ -104,7 +104,7 @@ namespace Lesson09A_AcadNet_ViewPort
         {
             using (PlotSettings ps = new PlotSettings(lay.ModelType))
             {
-                ps.CopyFrom(lay);
+               ps.CopyFrom(lay);
                 PlotSettingsValidator psv = PlotSettingsValidator.Current;
                 // Set the device
                 System.Collections.Specialized.StringCollection devs = psv.GetPlotDeviceList();
@@ -143,12 +143,13 @@ namespace Lesson09A_AcadNet_ViewPort
         {
             // If the drawing template is imperial, we need to divide by
             // 1" in mm (25.4)
-            double div = lay.PlotPaperUnits == PlotPaperUnit.Inches ? 25.4 : 1.0;
+            //double div = lay.PlotPaperUnits == PlotPaperUnit.Inches ? 25.4 : 1.0;
+            double div = lay.PlotPaperUnits == PlotPaperUnit.Millimeters ? 1.0 : 1.0;
             // We need to flip the axes if the plot is rotated by 90 or 270 deg
             bool doIt =lay.PlotRotation == PlotRotation.Degrees090 ||lay.PlotRotation == PlotRotation.Degrees270;
             // Get the extents in the correct units and orientation
-            Point2d min = lay.PlotPaperMargins.MinPoint.Swap(doIt) / div;
-            Point2d max = (lay.PlotPaperSize.Swap(doIt) -lay.PlotPaperMargins.MaxPoint.Swap(doIt).GetAsVector()) / div;
+            Point2d min = lay.PlotPaperMargins.MinPoint / div;
+            Point2d max = (lay.PlotPaperSize -lay.PlotPaperMargins.MaxPoint.GetAsVector()) / div;
             return new Extents2d(min, max);
         }
 
@@ -190,7 +191,7 @@ namespace Lesson09A_AcadNet_ViewPort
             vp.ViewHeight = hgt;
             // Set a custom scale to zoom out slightly (could also
             // vp.ViewHeight *= 1.1, for instance)
-            vp.CustomScale *= fac;
+            vp.CustomScale = fac;
         }
     }
 
@@ -215,7 +216,7 @@ namespace Lesson09A_AcadNet_ViewPort
                 lay.SetPlotSettings
                     (
                         //"ISO_full_bleed_2A0_(1189.00_x_1682.00_MM)", // Try this big boy!
-                        "ANSI_B_(11.00_x_17.00_Inches)",
+                        "ISO_full_bleed_A1_(841.00_x_594.00_MM)",
                         "monochrome.ctb",
                         "DWF6 ePlot.pc3"
                     );
@@ -229,10 +230,10 @@ namespace Lesson09A_AcadNet_ViewPort
                       // we set the PlotSettings (device, page size, etc.)
                       // Use the standard 10% margin around the viewport
                       // (found by measuring pixels on screenshots of Layout1, etc.)
-                      vp.ResizeViewport(ext, 0.8);
+                      vp.ResizeViewport(ext, 1);
                       // Adjust the view so that the model contents fit
                       if (ValidDbExtents(db.Extmin, db.Extmax))
-                        {vp.FitContentToViewport(new Extents3d(db.Extmin, db.Extmax), 0.9);}
+                        {vp.FitContentToViewport(new Extents3d(db.Extmin, db.Extmax), 1);}
                       // Finally we lock the view to prevent meddling
                       vp.Locked = true;
                      }
