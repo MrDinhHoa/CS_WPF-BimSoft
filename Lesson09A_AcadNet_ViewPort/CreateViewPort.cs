@@ -526,6 +526,64 @@ namespace Lesson09A_AcadNet_ViewPort
 
         }
 
+
+
+        [DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
+        EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
+        extern static private int acedSetCurrentVPort(IntPtr AcDbVport);
+        
+        [CommandMethod("CreateFloatingViewport")]
+        public static void CreateFloatingViewport()
+        {
+            // Get the current document and database, and start a transaction
+            Document acDoc = Application.DocumentManager.MdiActiveDocument;
+            Database acCurDb = acDoc.Database;
+
+            using (Transaction acTrans = acCurDb.TransactionManager.StartTransaction())
+            {
+                // Open the Block table for read
+                BlockTable acBlkTbl;
+                acBlkTbl = acTrans.GetObject(acCurDb.BlockTableId,
+                                             OpenMode.ForRead) as BlockTable;
+
+                // Open the Block table record Paper space for write
+                BlockTableRecord acBlkTblRec;
+                acBlkTblRec = acTrans.GetObject(acBlkTbl[BlockTableRecord.PaperSpace],
+                                                OpenMode.ForWrite) as BlockTableRecord;
+
+                // Switch to the previous Paper space layout
+                Application.SetSystemVariable("TILEMODE", 0);
+                acDoc.Editor.SwitchToPaperSpace();
+
+                // Create a Viewport
+                using (Viewport acVport = new Viewport())
+                {
+                    acVport.CenterPoint = new Point3d(3.25, 3, 0);
+                    acVport.Width = 6;
+                    acVport.Height = 5;
+
+                    // Add the new object to the block table record and the transaction
+                    acBlkTblRec.AppendEntity(acVport);
+                    acTrans.AddNewlyCreatedDBObject(acVport, true);
+
+                    // Change the view direction
+                    acVport.ViewDirection = new Vector3d(1, 1, 1);
+
+                    // Enable the viewport
+                    acVport.On = true;
+
+                    // Activate model space in the viewport
+                    acDoc.Editor.SwitchToModelSpace();
+
+                    // Set the new viewport current via an imported ObjectARX function
+                    acedSetCurrentVPort(acVport.UnmanagedObject);
+                }
+
+                // Save the new objects to the database
+                acTrans.Commit();
+            }
+        }
+
     }
 
     
