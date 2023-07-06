@@ -528,8 +528,8 @@ namespace Lesson09A_AcadNet_ViewPort
 
 
 
-        [DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
-        EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
+        //[DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
+        //EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
         extern static private int acedSetCurrentVPort(IntPtr AcDbVport);
         
         [CommandMethod("CreateFloatingViewport")]
