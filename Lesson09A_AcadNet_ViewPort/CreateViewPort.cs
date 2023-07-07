@@ -263,261 +263,106 @@ namespace Lesson09A_AcadNet_ViewPort
 
         [CommandMethod("ViewportZoom")]
         static public void CommandChangeViewportZoom()
-
         {
-
             // access database and editor
-
-            Database db = Application.DocumentManager.
-
-              MdiActiveDocument.Database;
-
-            Editor ed = Application.DocumentManager.
-
-              MdiActiveDocument.Editor;
-
-
-
-            using (Transaction tr = db.
-
-              TransactionManager.StartTransaction())
-
+            Database db = Application.DocumentManager.MdiActiveDocument.Database;
+            Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
+            using (Transaction tr = db.TransactionManager.StartTransaction())
             {
-
                 LayoutManager layoutMgr = LayoutManager.Current;
-
                 Layout layoutObj;
-
                 DBDictionary layoutDict;
-
-
-
-                ed.WriteMessage("Number of Layouts = {0}\n",
-
-                  layoutMgr.LayoutCount);
-
+                ed.WriteMessage("Number of Layouts = {0}\n",layoutMgr.LayoutCount);
                 ed.WriteMessage("Current Layout = {0}\n",
-
                   layoutMgr.CurrentLayout);
-
-
-
                 Point3d x_Min = db.Extmin;
-
                 Point3d x_Max = db.Extmax;
-
-
-
-                using (layoutDict = tr.GetObject(db.LayoutDictionaryId,
-
-                  OpenMode.ForRead) as DBDictionary)
-
+                using (layoutDict = tr.GetObject(db.LayoutDictionaryId,OpenMode.ForRead) as DBDictionary)
                 {
-
                     foreach (DictionaryEntry layoutEntry in layoutDict)
-
                     {
-
-                        using (layoutObj = tr.GetObject(
-
-                          (ObjectId)(layoutEntry.Value),
-
-                          OpenMode.ForRead) as Layout)
-
+                        using (layoutObj = tr.GetObject((ObjectId)(layoutEntry.Value), OpenMode.ForRead) as Layout)
                         {
-
-
-
                             // Set the CurrentLayout to the layout
-
                             // if it is not Modelspace
-
                             if (layoutObj.LayoutName != "Model")
-
                                 layoutMgr.CurrentLayout = layoutObj.LayoutName;
-
-
-
-                            ed.WriteMessage("Layout Name = {0}\n",
-
-                              layoutObj.LayoutName);
-
-                            BlockTableRecord r = tr.GetObject(
-
-                              layoutObj.BlockTableRecordId,
-
-                              OpenMode.ForRead) as BlockTableRecord;
-
+                            ed.WriteMessage("Layout Name = {0}\n",layoutObj.LayoutName);
+                            BlockTableRecord r = tr.GetObject(layoutObj.BlockTableRecordId,OpenMode.ForRead) as BlockTableRecord;
                             foreach (ObjectId obj in r)
-
                             {
-
                                 DBObject dbobj = tr.GetObject(obj, OpenMode.ForRead);
-
                                 Viewport vp = dbobj as Viewport;
-
                                 if (vp != null)
-
                                 {
-
                                     ed.WriteMessage("\nnumber of Viewport = {0}",
-
                                       vp.Number);
-
-
-
                                     // get the screen aspect ratio to calculate
-
                                     // the height and width
-
                                     double mScrRatio;
-
                                     // width/height
-
                                     mScrRatio = (vp.Width / vp.Height);
-
-
-
                                     Point3d mMaxExt = db.Extmax;
-
                                     Point3d mMinExt = db.Extmin;
-
-
-
                                     Extents3d mExtents = new Extents3d();
-
                                     mExtents.Set(mMinExt, mMaxExt);
-
-
-
                                     // prepare Matrix for DCS to WCS transformation
-
                                     Matrix3d matWCS2DCS;
-
                                     matWCS2DCS = Matrix3d.PlaneToWorld(vp.ViewDirection);
-
-                                    matWCS2DCS = Matrix3d.Displacement(
-
-                                      vp.ViewTarget - Point3d.Origin)
-
-                                      * matWCS2DCS;
-
-                                    matWCS2DCS = Matrix3d.Rotation(
-
-                                      -vp.TwistAngle, vp.ViewDirection,
-
-                                      vp.ViewTarget) * matWCS2DCS;
+                                    matWCS2DCS = Matrix3d.Displacement(vp.ViewTarget - Point3d.Origin)* matWCS2DCS;
+                                    matWCS2DCS = Matrix3d.Rotation( -vp.TwistAngle, vp.ViewDirection,vp.ViewTarget) * matWCS2DCS;
 
                                     matWCS2DCS = matWCS2DCS.Inverse();
 
 
-
                                     // tranform the extents to the DCS
-
                                     // defined by the viewdir
-
                                     mExtents.TransformBy(matWCS2DCS);
-
-
-
                                     // width of the extents in current view
-
                                     double mWidth;
-
                                     mWidth = (mExtents.MaxPoint.X - mExtents.MinPoint.X);
-
-
-
                                     // height of the extents in current view
-
                                     double mHeight;
-
                                     mHeight = (mExtents.MaxPoint.Y - mExtents.MinPoint.Y);
-
-
-
                                     // get the view center point
-
                                     Point2d mCentPt = new Point2d(
-
                                       ((mExtents.MaxPoint.X + mExtents.MinPoint.X) * 0.5),
-
                                       ((mExtents.MaxPoint.Y + mExtents.MinPoint.Y) * 0.5));
-
-
-
                                     // check if the width 'fits' in current window,
-
                                     // if not then get the new height as
-
                                     // per the viewports aspect ratio
-
                                     if (mWidth > (mHeight * mScrRatio))
-
                                         mHeight = mWidth / mScrRatio;
-
-
-
                                     // set the viewport parameters
-
                                     if (vp.Number == 2)
-
                                     {
-
                                         vp.UpgradeOpen();
-
                                         // set the view height - adjusted by 1%
-
                                         vp.ViewHeight = mHeight * 1.01;
-
                                         // set the view center
-
                                         vp.ViewCenter = mCentPt;
-
                                         vp.Visible = true;
-
                                         vp.On = true;
-
                                         vp.UpdateDisplay();
-
                                         ed.SwitchToModelSpace();
-
                                         Application.SetSystemVariable("CVPORT", vp.Number);
-
                                     }
-
                                     if (vp.Number == 3)
-
                                     {
-
                                         vp.UpgradeOpen();
-
                                         vp.ViewHeight = mHeight * 1.25;
-
                                         //set the view center
-
                                         vp.ViewCenter = mCentPt;
-
                                         vp.Visible = true;
-
                                         vp.On = true;
-
                                         vp.UpdateDisplay();
-
                                         ed.SwitchToModelSpace();
-
                                         Application.SetSystemVariable("CVPORT", vp.Number);
-
                                     }
-
                                 }
-
                             }
-
                         }
-
                     }
-
                 }
 
                 tr.Commit();
@@ -526,10 +371,8 @@ namespace Lesson09A_AcadNet_ViewPort
 
         }
 
-
-
-        //[DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
-        //EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
+        [DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
+        EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
         extern static private int acedSetCurrentVPort(IntPtr AcDbVport);
         
         [CommandMethod("CreateFloatingViewport")]

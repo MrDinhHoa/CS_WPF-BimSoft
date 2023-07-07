@@ -1,0 +1,6 @@
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_RevitP1.csproj.AssemblyReference.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\View\vMain.g.cs
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.cache
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1_MarkupCompile.lref
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.dll
+D:\01. WORKING\00. C-Sharp\05.CS_WPF_BimSoft\Lesson13_Revit_P1\obj\Debug\Lesson13_Revit_P1.pdb
