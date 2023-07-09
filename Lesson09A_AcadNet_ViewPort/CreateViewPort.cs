@@ -18,6 +18,7 @@ namespace Lesson09A_AcadNet_ViewPort
         /// <summary>
         /// Reverses the order of the X and Y properties of a Point2d.
         /// </summary>
+        /// <param name="pt"></param>
         /// <param name="flip">Boolean indicating whether to reverse or not.</param>
         /// <returns>The original Point2d or the reversed version.</returns>
         public static Point2d Swap(this Point2d pt, bool flip = true)
@@ -42,6 +43,7 @@ namespace Lesson09A_AcadNet_ViewPort
         /// <summary>
         /// Creates a layout with the specified name and optionally makes it current.
         /// </summary>
+        /// <param name="lm"></param>
         /// <param name="name">The name of the viewport.</param>
         /// <param name="select">Whether to select it.</param>
         /// <returns>The ObjectId of the newly created viewport.</returns>
@@ -62,6 +64,7 @@ namespace Lesson09A_AcadNet_ViewPort
         /// Applies an action to the specified viewport from this layout.
         /// Creates a new viewport if none is found withthat number.
         /// </summary>
+        /// <param name="lay"></param>
         /// <param name="tr">The transaction to use to open the viewports.</param>
         /// <param name="vpNum">The number of the target viewport.</param>
         /// <param name="f">The action to apply to each of the viewports.</param>
@@ -99,9 +102,10 @@ namespace Lesson09A_AcadNet_ViewPort
         /// <summary>
         /// Apply plot settings to the provided layout.
         /// </summary>
+        /// <param name="lay"></param>
         /// <param name="pageSize">The canonical media name for our page size.</param>
         /// <param name="styleSheet">The pen settings file (ctb or stb).</param>
-        /// <param name="devices">The name of the output device.</param>
+        /// <param name="device">The name of the output device.</param>
         public static void SetPlotSettings(this Layout lay, string pageSize, string styleSheet, string device)
         {
             using (PlotSettings ps = new PlotSettings(lay.ModelType))
@@ -145,10 +149,11 @@ namespace Lesson09A_AcadNet_ViewPort
         {
             // If the drawing template is imperial, we need to divide by
             // 1" in mm (25.4)
-            //double div = lay.PlotPaperUnits == PlotPaperUnit.Inches ? 25.4 : 1.0;
-            double div = lay.PlotPaperUnits == PlotPaperUnit.Millimeters ? 1.0 : 1.0;
+            double div = lay.PlotPaperUnits == PlotPaperUnit.Inches ? 25.4 : 1.0;
+            // ReSharper disable once ConditionalTernaryEqualBranch
+            //double div = lay.PlotPaperUnits == PlotPaperUnit.Millimeters ? 1.0 : 1.0;
             // We need to flip the axes if the plot is rotated by 90 or 270 deg
-            bool doIt =lay.PlotRotation == PlotRotation.Degrees090 ||lay.PlotRotation == PlotRotation.Degrees270;
+            //bool doIt =lay.PlotRotation == PlotRotation.Degrees090 ||lay.PlotRotation == PlotRotation.Degrees270;
             // Get the extents in the correct units and orientation
             Point2d min = lay.PlotPaperMargins.MinPoint / div;
             Point2d max = (lay.PlotPaperSize -lay.PlotPaperMargins.MaxPoint.GetAsVector()) / div;
@@ -158,6 +163,7 @@ namespace Lesson09A_AcadNet_ViewPort
         /// <summary>
         /// Sets the size of the viewport according to the provided extents.
         /// </summary>
+        /// <param name="vp"></param>
         /// <param name="ext">The extents of the viewport on the page.</param>
         /// <param name="fac">Optional factor to provide padding.</param>
         public static void ResizeViewport(this Viewport vp, Extents2d ext, double fac = 1.0)
@@ -170,6 +176,7 @@ namespace Lesson09A_AcadNet_ViewPort
         /// <summary>
         /// Sets the view in a viewport to contain the specified model extents.
         /// </summary>
+        /// <param name="vp"></param>
         /// <param name="ext">The extents of the content to fit the viewport.</param>
         /// <param name="fac">Optional factor to provide padding.</param>
         public static void FitContentToViewport(this Viewport vp, Extents3d ext, double fac = 1.0)
@@ -202,7 +209,7 @@ namespace Lesson09A_AcadNet_ViewPort
         [CommandMethod("CL")]
         public void CreateLayout()
         {
-            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Document doc = Autodesk.AutoCAD.ApplicationServices.Core.Application.DocumentManager.MdiActiveDocument;
             if (doc == null)
                 return;
             Database db = doc.Database;
@@ -235,7 +242,7 @@ namespace Lesson09A_AcadNet_ViewPort
                       vp.ResizeViewport(ext, 1);
                       // Adjust the view so that the model contents fit
                       if (ValidDbExtents(db.Extmin, db.Extmax))
-                        {vp.FitContentToViewport(new Extents3d(db.Extmin, db.Extmax), 1);}
+                      {vp.FitContentToViewport(new Extents3d(db.Extmin, db.Extmax), 1);}
                       // Finally we lock the view to prevent meddling
                       vp.Locked = true;
                      }
@@ -258,11 +265,10 @@ namespace Lesson09A_AcadNet_ViewPort
             return
               !(min.X > 0 && min.Y > 0 && min.Z > 0 &&
                 max.X < 0 && max.Y < 0 && max.Z < 0);
-
         }
 
         [CommandMethod("ViewportZoom")]
-        static public void CommandChangeViewportZoom()
+        public static void CommandChangeViewportZoom()
         {
             // access database and editor
             Database db = Application.DocumentManager.MdiActiveDocument.Database;
@@ -373,6 +379,7 @@ namespace Lesson09A_AcadNet_ViewPort
 
         [DllImport("acad.exe", CallingConvention = CallingConvention.Cdecl,
         EntryPoint = "?acedSetCurrentVPort@@YA?AW4ErrorStatus@Acad@@PBVAcDbViewport@@@Z")]
+        // ReSharper disable once ArrangeModifiersOrder
         extern static private int acedSetCurrentVPort(IntPtr AcDbVport);
         
         [CommandMethod("CreateFloatingViewport")]
